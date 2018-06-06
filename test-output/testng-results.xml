@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="133180" started-at="2018-06-06T14:20:07Z" finished-at="2018-06-06T14:22:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="133180" started-at="2018-06-06T14:20:07Z" finished-at="2018-06-06T14:22:20Z">
+      <class name="Selenium.Java.Project.seleniumjava.AppTest">
+        <test-method status="PASS" signature="apptestmethod()[pri:0, instance:Selenium.Java.Project.seleniumjava.AppTest@6093dd95]" name="apptestmethod" duration-ms="133120" started-at="2018-06-06T19:50:07Z" finished-at="2018-06-06T19:52:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apptestmethod -->
+      </class> <!-- Selenium.Java.Project.seleniumjava.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
