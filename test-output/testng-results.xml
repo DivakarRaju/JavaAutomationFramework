@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="133180" started-at="2018-06-06T14:20:07Z" finished-at="2018-06-06T14:22:20Z">
+  <suite name="Default suite" duration-ms="34511" started-at="2018-06-06T15:02:13Z" finished-at="2018-06-06T15:02:48Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="133180" started-at="2018-06-06T14:20:07Z" finished-at="2018-06-06T14:22:20Z">
+    <test name="Default test" duration-ms="34511" started-at="2018-06-06T15:02:13Z" finished-at="2018-06-06T15:02:48Z">
       <class name="Selenium.Java.Project.seleniumjava.AppTest">
-        <test-method status="PASS" signature="apptestmethod()[pri:0, instance:Selenium.Java.Project.seleniumjava.AppTest@6093dd95]" name="apptestmethod" duration-ms="133120" started-at="2018-06-06T19:50:07Z" finished-at="2018-06-06T19:52:20Z">
+        <test-method status="PASS" signature="apptestmethod()[pri:0, instance:Selenium.Java.Project.seleniumjava.AppTest@6093dd95]" name="apptestmethod" duration-ms="34475" started-at="2018-06-06T20:32:13Z" finished-at="2018-06-06T20:32:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- apptestmethod -->

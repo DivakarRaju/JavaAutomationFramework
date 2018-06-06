@@ -12,7 +12,7 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 
 
-public class AppTest {
+public class BrowserUtilities {
 	
 	private static WebDriver webdriver;
 	private static AppiumDriver appdriver;
@@ -24,7 +24,6 @@ public class AppTest {
 		webdriver = new ChromeDriver();
 		return webdriver;
 	}
-	
 	
 
 	public static AppiumDriver appiumdriver_initialize() throws MalformedURLException
@@ -42,7 +41,10 @@ public class AppTest {
 	@Test
 	public void apptestmethod() throws MalformedURLException{
 		
-	appdriver = AppTest.appiumdriver_initialize();
+	appdriver = BrowserUtilities.appiumdriver_initialize();
+	appdriver.quit();
+	
+	
 	}
 	
 }
