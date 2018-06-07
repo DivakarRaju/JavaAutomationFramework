@@ -1,4 +1,4 @@
-package Selenium.Java.Project.seleniumjava;
+package support;
 
 
 import org.openqa.selenium.WebDriver;
@@ -8,8 +8,6 @@ public class BrowserUtilities {
 	
 	private static WebDriver webdriver;
 
-	
-	
 	public static WebDriver webdriver_initialize()
 	{
 		try{
@@ -21,14 +19,5 @@ public class BrowserUtilities {
 		}
 		return webdriver;
 	}
-	
-	
-	
-	
-
-
-	
-	
-
 	
 }

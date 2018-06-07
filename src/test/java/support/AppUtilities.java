@@ -1,4 +1,4 @@
-package Selenium.Java.Project.seleniumjava;
+package support;
 
 import java.net.URL;
 
@@ -15,18 +15,21 @@ public class AppUtilities {
 	public static AppiumDriver<MobileElement> appiumdriver_initialize() 
 	{
 		try {
-			DesiredCapabilities caps= new DesiredCapabilities();
-			caps.setCapability("platform", "android");
-			caps.setCapability("deviceName", "xyz");
-			caps.setCapability("app", "E:\\divakar\\HOT_TOPIC\\HT_APP_NEW_REPO\\native_application\\torrid.apk");
-			
-			appdriver = new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"),caps);
-	
+			appdriver = new AndroidDriver<MobileElement>(new URL("http://127.0.0.1:4723/wd/hub"), AppUtilities.get_app_capabilities());
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return appdriver;
+	}
+	
+	public static DesiredCapabilities get_app_capabilities()
+	{
+		DesiredCapabilities caps= new DesiredCapabilities();
+		caps.setCapability("platform", "android");
+		caps.setCapability("deviceName", "xyz");
+		caps.setCapability("app", "E:\\divakar\\HOT_TOPIC\\HT_APP_NEW_REPO\\native_application\\torrid.apk");
+		return caps;
 	}
 
 }

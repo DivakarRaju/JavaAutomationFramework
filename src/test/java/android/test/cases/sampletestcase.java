@@ -4,9 +4,9 @@ import java.net.MalformedURLException;
 
 import org.testng.annotations.Test;
 
-import Selenium.Java.Project.seleniumjava.*;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
+import support.*;
 
 public class sampletestcase {
 	
@@ -16,7 +16,7 @@ public class sampletestcase {
 	public void apptestmethod() throws MalformedURLException{
 		
 		appdriver= AppUtilities.appiumdriver_initialize();
-		
 		appdriver.quit();
 	}
 }
+;
