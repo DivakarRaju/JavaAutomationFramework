@@ -10,16 +10,13 @@ import io.appium.java_client.MobileElement;
 
 public class sampletestcase {
 	
-	
-
+	AppiumDriver<MobileElement> appdriver;
 	
 	@Test
 	public void apptestmethod() throws MalformedURLException{
 		
-		AppiumDriver<MobileElement> appdriver= AppUtilities.appiumdriver_initialize();
+		appdriver= AppUtilities.appiumdriver_initialize();
 		
 		appdriver.quit();
 	}
-   
-
 }
