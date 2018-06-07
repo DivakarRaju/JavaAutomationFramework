@@ -3,7 +3,7 @@
 <suite name="Default suite">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="Selenium.Java.Project.seleniumjava.AppTest"/>
+      <class name="android.test.cases.sampletestcase"/>
     </classes>
   </test> <!-- Default test -->
 </suite> <!-- Default suite -->
