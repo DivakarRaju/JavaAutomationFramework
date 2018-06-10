@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34511" started-at="2018-06-06T15:02:13Z" finished-at="2018-06-06T15:02:48Z">
+  <suite name="Default suite" duration-ms="12169" started-at="2018-06-07T17:49:44Z" finished-at="2018-06-07T17:49:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34511" started-at="2018-06-06T15:02:13Z" finished-at="2018-06-06T15:02:48Z">
-      <class name="Selenium.Java.Project.seleniumjava.AppTest">
-        <test-method status="PASS" signature="apptestmethod()[pri:0, instance:Selenium.Java.Project.seleniumjava.AppTest@6093dd95]" name="apptestmethod" duration-ms="34475" started-at="2018-06-06T20:32:13Z" finished-at="2018-06-06T20:32:48Z">
+    <test name="Default test" duration-ms="12169" started-at="2018-06-07T17:49:44Z" finished-at="2018-06-07T17:49:56Z">
+      <class name="android.test.cases.sampletestcase">
+        <test-method status="PASS" signature="webtestmethod()[pri:0, instance:android.test.cases.sampletestcase@8bd1b6a]" name="webtestmethod" duration-ms="12137" started-at="2018-06-07T23:19:44Z" finished-at="2018-06-07T23:19:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- apptestmethod -->
-      </class> <!-- Selenium.Java.Project.seleniumjava.AppTest -->
+        </test-method> <!-- webtestmethod -->
+      </class> <!-- android.test.cases.sampletestcase -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
